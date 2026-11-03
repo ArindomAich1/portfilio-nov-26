@@ -1,0 +1,48 @@
+.footer {
+  margin-top: var(--section-y);
+  border-top: 1px solid var(--rule);
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px 32px;
+  padding-block: 32px 40px;
+}
+
+.sign {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  color: var(--ink);
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.03em;
+  color: var(--ink-3);
+}
+
+.meta time {
+  font-variant-numeric: tabular-nums;
+}
+
+.top {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  color: var(--ink-2);
+  transition: color var(--dur-micro) var(--ease);
+}
+
+.top:hover {
+  color: var(--accent);
+}

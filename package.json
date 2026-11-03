@@ -1,0 +1,35 @@
+{
+  "name": "arindom-aich-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "copy-cv": "node scripts/copy-cv.mjs",
+    "predev": "npm run copy-cv",
+    "dev": "vite",
+    "prebuild": "npm run copy-cv",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src index.html"
+  },
+  "dependencies": {
+    "@fontsource-variable/newsreader": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "cmdk": "^1.1.1",
+    "lenis": "^1.3.27",
+    "lucide-react": "^1.67.0",
+    "motion": "^14.9.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vite-imagetools": "^12.0.1"
+  }
+}
