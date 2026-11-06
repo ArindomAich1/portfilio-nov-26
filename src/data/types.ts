@@ -11,6 +11,7 @@ export type Role = {
   bullets: string[]
   stack?: string[]
   projects?: string[]
+  certificate?: Link
 }
 
 export type PipelineNode = { label: string; note?: string }

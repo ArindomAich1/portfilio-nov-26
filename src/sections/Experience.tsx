@@ -1,3 +1,4 @@
+import { ArrowUpRight } from 'lucide-react'
 import { m, useScroll, useSpring } from 'motion/react'
 import { useRef } from 'react'
 import { Reveal } from '../components/Reveal'
@@ -17,12 +18,7 @@ export function Experience() {
   const progress = useSpring(scrollYProgress, { stiffness: 120, damping: 30, mass: 0.4 })
 
   return (
-    <Section
-      id="experience"
-      index={3}
-      label="Experience"
-      title="Experience"
-    >
+    <Section id="experience" index={3} label="Experience" title="Experience">
       <div className={styles.timeline}>
         <span className={styles.track} aria-hidden="true">
           <m.span className={styles.progress} style={{ scaleY: progress }} />
@@ -83,6 +79,13 @@ export function Experience() {
                   <div className={styles.stack}>
                     <TagList items={role.stack} label={`${role.title} stack`} />
                   </div>
+                )}
+
+                {role.certificate && (
+                  <a className={styles.certificate} href={role.certificate.href} target="_blank" rel="noopener">
+                    {role.certificate.label}
+                    <ArrowUpRight size={14} strokeWidth={1.5} aria-hidden="true" />
+                  </a>
                 )}
               </Reveal>
             </li>

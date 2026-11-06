@@ -106,6 +106,10 @@ export const experience: Role[] = [
     ],
     stack: ['Java', 'Spring Boot', 'Hibernate', 'FastAPI', 'MySQL', 'Docker', 'React', 'GenAI'],
     projects: ['aiRen', 'Coremax', 'Gasolina', 'Marola.Life'],
+    certificate: {
+      label: 'Experience certificate',
+      href: 'https://drive.google.com/file/d/1tiC0eKx6IkIQmqvlhWyTg0JluE3idHAT/view?usp=sharing',
+    },
   },
   {
     title: 'Software Development Intern',
@@ -120,6 +124,10 @@ export const experience: Role[] = [
     ],
     stack: ['Java', 'Spring Boot', 'Hibernate', 'MySQL', 'Docker', 'React'],
     projects: ['Rent-savvy'],
+    certificate: {
+      label: 'Internship certificate',
+      href: 'https://drive.google.com/file/d/1k_RiUS-rTvhi9oO6dC49MnAy2DXw1SEC/view?usp=sharing',
+    },
   },
   {
     title: 'Intern',
@@ -134,6 +142,10 @@ export const experience: Role[] = [
     ],
     stack: ['Open5GS', 'UERANSIM', 'Python', 'Ubuntu'],
     projects: ['Advancements in 5G simulation'],
+    certificate: {
+      label: 'Internship certificate',
+      href: 'https://drive.google.com/file/d/1Sjk2brBP4S74lPEUxQC8HkvrQ3mvA9SU/view?usp=sharing',
+    },
   },
   {
     title: 'Web Development Intern',

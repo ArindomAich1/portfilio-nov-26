@@ -158,6 +158,22 @@
   margin-top: 14px;
 }
 
+.certificate {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 14px;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--accent);
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--dur-micro) var(--ease);
+}
+
+.certificate:hover {
+  border-bottom-color: currentColor;
+}
+
 @media (max-width: 720px) {
   .timeline {
     --rail: 28px;
