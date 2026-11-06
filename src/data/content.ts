@@ -156,6 +156,10 @@ export const experience: Role[] = [
     bullets: [],
     stack: ['React', 'Redux Toolkit'],
     projects: ['Ensuring QoS in IoMT'],
+    certificate: {
+      label: 'Internship certificate',
+      href: 'https://drive.google.com/file/d/19XdeJs1PD6oW6YCJ4GuI3pXDlMNs0ak-/view?usp=sharing',
+    },
   },
 ]
 
